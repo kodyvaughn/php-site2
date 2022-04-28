@@ -1,0 +1,11 @@
+<h2>PHP Project</h2>
+<ul>
+<li><a href="welcome.php">Home</a></li>
+<li><a href="chips.php">Chips</a></li>
+<li><a href="cookies.php">Cookies</a></li>
+<li><a href="sodas.php">Sodas</a></li>
+<li><a href="water.php">Water</a></li>
+<li><a href="cart.php">My Cart</a></li>
+<li><a href="logout.php">Logout</a></li>
+<p><b>Notice!</b> All pages have placeholders. This means they don't do anything except say what the page will hold.</p>
+</ul>
