@@ -1,7 +1,0 @@
-<?php
-unset($_SESSION['username']);
-unset($_SESSION['passwd']);
-session_destroy();
-?>
-<h3>Successfuly logged out</h3>
-Not Really...
