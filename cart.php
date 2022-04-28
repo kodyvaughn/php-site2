@@ -12,7 +12,6 @@ if (!isset($_POST['choice']))
 }
 else if ($_POST['choice'] == 'Make Purchase')
 {
-    echo 'Payment Successful!';
     $_SESSION['chips'] = 0;
     $_SESSION['cookies'] = 0;
     $_SESSION['soda'] = 0;
@@ -41,6 +40,10 @@ Water: <?php echoSession("water") ?> <br>
 <input type='submit' name='choice' value='Make Purchase'>
 <input type='submit' name='choice' value='Remove Purchase'>
 </form>
+<?php 
+if (!isset($_POST['choice'])) { }
+else if ($_POST['choice'] == 'Make Purchase') { echo 'Payment Successful!';}
+?>
 <?php readfile("lib/footer.html"); ?>
 </body>
 </html>
